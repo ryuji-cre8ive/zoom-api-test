@@ -25,7 +25,8 @@
     "nuxt": "^2.15.7",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
-    "vuetify": "^2.5.5"
+    "vuetify": "^2.5.5",
+    "commitizen": "^4.2.4"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.7",

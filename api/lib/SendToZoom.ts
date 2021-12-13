@@ -2,8 +2,10 @@ const axios = require('axios');
 require('dotenv');
 
 
+
+
 const roomCreator = () => {
-  const roomop = {
+  const roomop: option = {
     "topic": 'ask something',
     "type": '2',
     "start_time": new Date(),
@@ -12,7 +14,8 @@ const roomCreator = () => {
       "join_before_host": false,
       "mute_upon_entry": true,
       "auto_recording": true,
-      "use_pmi": false
+      "use_pmi": false,
+      "host_video": true
     },
   };
 
